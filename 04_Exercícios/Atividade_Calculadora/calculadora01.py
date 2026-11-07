@@ -56,7 +56,7 @@ def multiplicar():
 
 def dividir():
     cabecalho("OPERAÇÃO DE DIVISÃO", FRENTE_MAGENTA_CLARO)
-    n1, n2 = pedir_numeros
+    n1, n2 = pedir_numeros()
 
     linha()
     if n2 == 0:
